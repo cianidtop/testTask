@@ -6,7 +6,7 @@ def asana_request(url, data, method):
     url = "https://app.asana.com/api/1.0/" + url
     headers = {
         'Content-Type': "application/json",
-        'Authorization': "Bearer 0/a397cf78607555178217181c202d4e22"
+        'Authorization': "Bearer 0/6179ee23d060cf637b048019515a9627"
     }
 
     response = requests.request(method, url, verify=False, data=data, headers=headers)
